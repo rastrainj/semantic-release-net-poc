@@ -72,3 +72,14 @@ husky > pre-commit (node v10.1.0)
 No staged files match any of provided globs.
 husky > commit-msg (node v10.1.0)
 ```
+
+## Install semantic-release
+
+```bash
+npm install --save-dev semantic-release
+npm install --save-dev @semantic-release/changelog
+npm install --save-dev @semantic-release/git
+
+# Configure semantic-release
+# File .releaserc
+```
